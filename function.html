@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+
+<p>Call a function which performs a calculation and returns the result:</p>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+let x = myFunction(4, 3);
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b; // on reaching return, the function stops executing and return value where it is called.
+}
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius(); // calling without arguments.
+document.getElementById("demo2").innerHTML = value;
+function ToCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let Value = ToCelsius; // calling without ().
+document.getElementById("demo3").innerHTML = Value;
+</script>
+
+</body>
+</html>

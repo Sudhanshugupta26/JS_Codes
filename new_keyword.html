@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+// x is a string
+let x = "John";
+
+// y is an object
+let y = new String("John");
+
+document.getElementById("demo").innerHTML = y + "<br>" +
+typeof x + "<br>" + typeof y;
+document.getElementById("demo2").innerHTML = (x==y); // since both are string as stored
+document.getElementById("demo3").innerHTML = (x===y); // datatype is different.
+</script>
+
+</body>
+</html>

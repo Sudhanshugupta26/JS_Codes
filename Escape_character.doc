@@ -1,0 +1,15 @@
+<!-- Code	Result	Description
+        \'	    '	Single quote
+        \"	    "	Double quote
+        \\	    \	Backslash       -->
+        
+<!-- Six other escape sequences are valid in JavaScript:
+
+Code	Result
+\b	    Backspace
+\f	    Form Feed
+\n	    New Line
+\r	    Carriage Return
+\t	    Horizontal Tabulator
+\v	    Vertical Tabulator 
+-->

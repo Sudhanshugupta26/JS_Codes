@@ -1,0 +1,32 @@
+@ The JavaScript syntax defines two types of values:
+
+Fixed values
+Variable values
+Fixed values are called Literals.
+
+Variable values are called Variables.
+
+@ In a programming language, variables are used to store data values.
+
+JavaScript uses the keywords var, let and const to declare variables.
+
+An equal sign is used to assign values to variables.
+
+@ Not all JavaScript statements are "executed".
+
+Code after double slashes //(single line comment) or between /*(multiline comment) and */ is treated as a comment.
+
+@Identifiers are JavaScript names.
+
+Identifiers are used to name variables and keywords, and functions.
+
+The rules for legal names are the same in most programming languages.
+
+A JavaScript name must begin with:
+
+A letter (A-Z or a-z)
+A dollar sign ($)
+Or an underscore (_)
+Subsequent characters may be letters, digits, underscores, or dollar signs.
+
+@ All JavaScript identifiers are case sensitive.
