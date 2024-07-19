@@ -1,0 +1,15 @@
+body{
+    background-color: cadetblue;
+}
+.DivC{
+    color: darkblue;
+    background-color: aqua;
+    height: 100px;
+    text-align: center;
+}
+.content{
+    color: gold;
+}
+.newClass{
+    background-color: black;
+}

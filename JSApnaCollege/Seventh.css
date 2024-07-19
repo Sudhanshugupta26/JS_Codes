@@ -1,0 +1,14 @@
+#heading{   /* styling with ids*/
+    color: rgb(0,0,0);
+    background-color: darkgray;
+}
+.header{    /*styling with class*/
+    text-align: center;
+}
+body{
+    background-color: rgba(16, 237, 60, 0.905);
+}
+button{
+    color: aqua;
+    background-color: brown;
+}
